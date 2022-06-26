@@ -2,69 +2,78 @@
   text-align: center;
 }
 
-.nav-links{
-  width:50%;
+.nav-links {
+  width: 50%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   list-style: none;
 }
 
-.link{
+.link {
   list-style: none;
 }
 
-.main{
+.main {
   text-align: center;
   justify-content: center;
   display: flex;
   padding: 90px 0px 90px 0;
-  background-color: rgb(252,252,252);
+  background-color: rgb(252, 252, 252);
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgba(255, 0, 0, 1)
+  );
 }
 
-.sub-main{
+.sub-main {
   display: flex;
   justify-content: center;
   height: 550px;
   width: 35%;
-  box-shadow: 11px 12px 13px 12px rgb(207, 207, 207);
-  padding-top:30px ;
-  border-radius: 60px;
+  filter: drop-shadow(0 0 0.75rem rgb(207, 207, 207));
+  padding-top: 30px;
+  border-radius: 20px;
   background-color: white;
 }
 
-input{
+input {
   width: 300px;
   height: 50px;
-  border-radius: 60px;
-  box-shadow: inset 0px 0px 25px 0px #888;
+  border-radius: 50px;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgba(255, 0, 0, 1)
+  );
 }
 
-.imgs{
+.imgs {
   padding-top: 20px;
   justify-content: center;
   display: flex;
 }
-.container-image{
-  background-color: rgb(223,221,221);
+.container-image {
+  background-color: rgb(223, 221, 221);
   border-radius: 150px;
-  align-items:center;
+  align-items: center;
   display: flex;
   height: 115px;
-  width: 115px;  
+  width: 115px;
 }
 
-.profile{
+.profile {
   height: 130px;
   width: 130px;
   border-radius: 130px;
 }
 
-.LHeader{
+.LHeader {
   text-align: center;
 }
 
-.email{
+.email {
   height: 25px;
   width: 35px;
   position: absolute;
@@ -73,16 +82,16 @@ input{
   outline: none;
 }
 
-.fill{
+.fill {
   padding-left: 70px;
-  font-size: 20px;
+  font-size: 15px;
 }
 
-.second-input{
+.second-input {
   padding-top: 20px;
 }
 
-button{
+button {
   width: 260px;
   height: 50px;
   border-radius: 60px;
@@ -93,19 +102,19 @@ button{
   border: none;
 }
 
-.login-btn{
+.login-btn {
   padding-top: 20px;
 }
 
-.reg-link{
+.reg-link {
   padding-top: 10px;
 }
 
-.mail-id{
+.mail-id {
   padding-top: 20px;
 }
 
-.plist{
+.plist {
   padding-right: 10px;
   font-size: 25px;
 }
@@ -127,9 +136,9 @@ select {
   width: 20em;
   height: 3em;
   line-height: 3;
-  background: #2C3E50;
+  background: #2c3e50;
   overflow: hidden;
-  border-radius: .25em;
+  border-radius: 0.25em;
 }
 
 select {
@@ -146,16 +155,16 @@ select::-ms-expand {
 }
 
 .select::after {
-  content: '\25BC';
+  content: "\25BC";
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   padding: 0 1em;
-  background: #34495E;
+  background: #34495e;
   pointer-events: none;
 }
 
 .select:hover::after {
-  color: #F39C12;
+  color: #f39c12;
 }
